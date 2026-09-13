@@ -1,0 +1,10 @@
+SMART KISTI MANAGER v18 – নতুন ফিচার
+
+• Business Analytics dashboard
+• Date-range Cash In / Cash Out / Net Cash analysis
+• Kisti / DPS / Other Income আলাদা summary
+• Overdue Aging: 1–7, 8–30, 31–60, 61+ দিন
+• Daily Performance table (সর্বশেষ 31 দিন)
+• Analytics CSV export
+• Analytics printable report
+• আগের সব Customer, Kisti, DPS, Payment, Due, Schedule, Collection Center, Smart Insights, Cashbook, Calculator ও Customer Ledger ফিচার বজায় আছে।

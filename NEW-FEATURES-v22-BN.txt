@@ -1,0 +1,11 @@
+Smart Kisti Manager v22 – Professional Features
+1. Executive Center
+2. Current vs previous month collection comparison
+3. 6-month collection trend
+4. Payment method mix
+5. Expense category analysis
+6. Top collecting Kisti accounts
+7. Today transaction/cash summary
+8. Overdue account KPI
+9. Executive CSV export and print
+10. All previous v21 features retained

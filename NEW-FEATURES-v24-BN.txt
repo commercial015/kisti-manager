@@ -1,0 +1,16 @@
+Smart Kisti Manager v24 – Ultimate Professional
+
+নতুন:
+1. Target & Daily Closing Center
+2. Monthly Collection Target সেট ও Achievement %
+3. Target Remaining ও Progress Bar
+4. নির্বাচিত দিনের Cash In / Cash Out / Net Movement
+5. Payment Method অনুযায়ী Daily Inflow Breakdown
+6. Daily Closing Transaction List
+7. Target & Closing CSV Export
+8. Print-ready Target & Closing Report
+
+আগের সব v23 ফিচারও রাখা হয়েছে:
+Activity Log, Business Snapshot, Executive Center, Portfolio Monitor, Collection Forecast,
+Data Health, Smart Reminders, Customer Ledger, Analytics, Profit/Loss, Cashbook,
+Kisti Calculator, DPS, Schedule, Backup/Restore, CSV/JSON Export, Dark/Light Theme।

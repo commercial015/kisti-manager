@@ -1,0 +1,13 @@
+Smart Kisti Manager v15 – নতুন ফিচার
+
+1. Collection Center – আজকের, Upcoming ও Overdue কিস্তি এক জায়গায়।
+2. One-click WhatsApp – গ্রাহককে কিস্তির reminder পাঠানোর shortcut।
+3. Smart Insights – Top Customer, Payment Method ও Data Health।
+4. Collection Rate – মোট কিস্তি টার্গেটের তুলনায় আদায়ের হার।
+5. Risk Account – বেশি বকেয়া/Overdue customer চিহ্নিত করা।
+6. Next Collection – সবচেয়ে কাছের Due date দেখায়।
+7. Last Activity – সর্বশেষ লেনদেনের তারিখ।
+8. Light/Dark Theme – সফটওয়্যারের চেহারা বদলানোর সুবিধা।
+9. JSON Export – পুরো local data আলাদা JSON ফাইলে export।
+10. Clear Search – এক ক্লিকে সব search field পরিষ্কার।
+11. আগের সব Kisti, DPS, Payment, Income, Expense, Schedule, Print, Backup/Restore ফিচার রাখা হয়েছে।

@@ -1,0 +1,17 @@
+Smart Kisti Manager v13 - নতুন ফিচার
+
+1. Other Income / অন্যান্য আয় module
+2. আজকের কিস্তি ও এই মাসের collection KPI
+3. Overdue account সংখ্যা ও মোট overdue amount
+4. Customer edit/delete + call + WhatsApp shortcut
+5. Kisti account edit/delete
+6. DPS edit/delete
+7. Expense delete
+8. Income delete
+9. Account Statement print
+10. Payment receipt-এ note
+11. Full CSV export: Kisti + DPS + Income + Expense
+12. মাসভিত্তিক আয়-খরচ report
+13. Quick global search আরও উন্নত
+14. পুরোনো v12 data structure compatible; incomes array স্বয়ংক্রিয়ভাবে যোগ হবে
+15. Windows 11 Setup build-এর জন্য publish never রাখা হয়েছে

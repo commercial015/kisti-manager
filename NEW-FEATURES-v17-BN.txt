@@ -1,0 +1,8 @@
+Smart Kisti Manager v17 – নতুন ফিচার
+
+1. Customer Ledger: একজন গ্রাহকের Kisti + DPS লেনদেন, মোট আদায়, DPS জমা, Outstanding ও Overdue একসাথে।
+2. Printable Customer Ledger: নির্বাচিত গ্রাহকের পূর্ণ স্টেটমেন্ট প্রিন্ট করা যাবে।
+3. Payment Edit: ভুল তারিখ, পরিমাণ, কিস্তি নম্বর, Account, Method বা Note ঠিক করা যাবে। Duplicate installment number আটকানো হয়েছে।
+4. Modern navigation: Customer Ledger আলাদা মডিউল হিসেবে যোগ হয়েছে।
+5. v16-এর Cashbook ও Kisti Calculator এবং v15-এর Smart Dashboard, Collection Center, Insights, Theme, Backup/Restore সব রাখা হয়েছে।
+6. Windows 11 GitHub Actions build: publish বন্ধ রেখে Setup artifact তৈরি হবে।

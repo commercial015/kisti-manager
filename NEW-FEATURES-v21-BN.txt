@@ -1,0 +1,23 @@
+Smart Kisti Manager v21 – নতুন Professional Features
+
+1. Collection Forecast
+- আগামী ৭ দিনের Due amount
+- আগামী ৩০ দিনের Due amount
+- Overdue exposure
+- Active account count
+- Upcoming collection plan
+- Print এবং CSV export
+
+2. Data Health Center
+- Duplicate mobile number detection
+- Missing customer name/phone detection
+- Incomplete Kisti account detection
+- Missing start date detection
+- Orphan payment detection
+- DPS orphan payment detection
+- Scan Again button
+
+3. Professional polish
+- Windows 11 friendly layout
+- v21 branding
+- Existing Dashboard, Portfolio, Analytics, Profit & Loss, Cashbook, Ledger, Reminders, DPS, Kisti Schedule and Backup features retained.

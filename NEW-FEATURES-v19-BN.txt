@@ -1,0 +1,27 @@
+Smart Kisti Manager v19 — নতুন ফিচার
+
+1. Smart Reminders
+- আজকের Due
+- আগামী ৭ দিনের Due
+- Overdue তালিকা
+- মোট বকেয়া
+- Customer search
+- WhatsApp reminder
+- One-click collection entry
+
+2. Profit & Loss / Cash Flow
+- তারিখ অনুযায়ী Kisti Collection
+- DPS Deposit
+- Other Income
+- Expense
+- Total In
+- Net Cash Flow
+- Transaction count
+- Date-range filter
+- Daily breakdown
+- Print report
+
+3. আগের সব ফিচার রাখা হয়েছে:
+Dashboard, Customers, Kisti, DPS, Payments, Due, Schedule, Collection Center,
+Smart Insights, Reports, Cashbook, Calculator, Customer Ledger, Analytics,
+Backup/Restore, CSV/JSON Export এবং Dark/Light Theme.

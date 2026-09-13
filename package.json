@@ -1,0 +1,46 @@
+{
+  "name": "smart-kisti-manager",
+  "version": "25.0.0",
+  "description": "Smart Kisti Manager - Final Ultimate Professional with PDF Reports Windows 11 installment, DPS, customer and business management",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win nsis --publish never",
+    "build:portable": "electron-builder --win portable --publish never"
+  },
+  "devDependencies": {
+    "electron": "^38.0.0",
+    "electron-builder": "^26.0.0"
+  },
+  "build": {
+    "appId": "com.smartkisti.manager",
+    "productName": "Smart Kisti Manager",
+    "asar": true,
+    "files": [
+      "**/*"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "artifactName": "Smart-Kisti-Manager-Setup-${version}-${arch}.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Smart Kisti Manager",
+      "deleteAppDataOnUninstall": false
+    }
+  }
+}

@@ -1,0 +1,10 @@
+Smart Kisti Manager v14 - নতুন ফিচার
+
+1. 📅 Full Installment Schedule: প্রতিটি account-এর সব কিস্তির due date, paid, upcoming ও overdue status দেখা যাবে।
+2. 🖨 Printable Schedule: account-wise installment schedule print করা যাবে।
+3. 🎯 Daily Collection Target: Settings থেকে দৈনিক collection target সেট করে Dashboard-এ আজকের collection ও progress % দেখা যাবে।
+4. 🚨 Overdue Late Fee: প্রতিটি Kisti account-এ fixed overdue late fee সেট করা যাবে এবং outstanding-এ তা দেখাবে।
+5. 👤 Customer Ledger উন্নত: customer profile থেকে collection/DPS/account summary দেখা যায়।
+6. 🔍 Schedule Search: customer বা account দিয়ে পুরো schedule খোঁজা যাবে।
+7. 💾 Existing data compatible: আগের data থাকলে নতুন settings/late fee field স্বয়ংক্রিয়ভাবে কাজ করবে।
+8. 🪟 GitHub Actions: Windows Setup build-এর জন্য --publish never এবং সহজ artifact path রাখা হয়েছে।

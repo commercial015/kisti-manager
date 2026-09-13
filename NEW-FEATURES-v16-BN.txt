@@ -1,0 +1,10 @@
+Smart Kisti Manager v16
+
+নতুন ফিচার:
+- Daily Cashbook: সব Kisti, DPS, Income ও Expense একসাথে
+- তারিখ অনুযায়ী Cashbook filter
+- Cash In, Cash Out, Net Cash ও transaction count
+- Printable Cashbook
+- Kisti Calculator: মূলধন + service charge + কিস্তি সংখ্যা থেকে মোট ও প্রতি কিস্তি
+- আরও পরিষ্কার Smart Dashboard navigation
+- আগের সব v15 ফিচার অক্ষুণ্ণ

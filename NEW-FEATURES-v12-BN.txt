@@ -1,0 +1,18 @@
+Smart Kisti Manager v12.0 — নতুন ফিচার
+
+1. Overdue detection: প্রতিটি কিস্তির ব্যবধান (দিন) অনুযায়ী Next Due Date ও Overdue days দেখাবে।
+2. Customer Profile: গ্রাহকের Kisti/DPS summary ও account থেকে দ্রুত collection।
+3. Kisti Purpose: অ্যাকাউন্টের উদ্দেশ্য/কারণ সংরক্ষণ।
+4. Payment Method: Cash, bKash, Nagad, Bank, Other।
+5. Payment Note: প্রতিটি কিস্তির সাথে নোট।
+6. Printable Receipt: Payment History থেকে Receipt print।
+7. Monthly Collection Chart: গত ৬ মাসের Kisti + DPS collection visual chart।
+8. Overdue Queue: Dashboard-এ জরুরি overdue collection list।
+9. Business Expenses: খরচের খাত, বিবরণ, তারিখ ও amount।
+10. Net Cash: Collection + DPS - Expenses হিসাব।
+11. Quick Search: উপরের Quick Search দিয়ে account/customer খোঁজা।
+12. CSV Export: Kisti, DPS ও Expense একসাথে Excel-compatible CSV।
+13. Backup/Restore: আগের local JSON backup ব্যবস্থা রাখা হয়েছে।
+14. Windows Installer: NSIS Setup.exe build এবং GitHub Actions artifact প্রস্তুত।
+
+নোট: আগের data file থাকলে নতুন fields না থাকলেও application default value দিয়ে কাজ চালিয়ে যাবে।

@@ -1,0 +1,12 @@
+SMART KISTI MANAGER v15
+
+নতুন ZIP-এর ফাইলগুলো আপনার GitHub repository-তে upload/replace করুন।
+
+Windows 11 Setup বানাতে:
+1) GitHub → Actions
+2) Build Windows Installer
+3) Run workflow → main → Run workflow
+4) Success হলে Artifacts থেকে Smart-Kisti-Manager-Windows-Setup-v15 download করুন।
+5) ZIP খুলে Setup-EXE চালান।
+
+লোকাল PC-তে Node.js থাকলে: npm install → npm start

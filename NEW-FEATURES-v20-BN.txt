@@ -1,0 +1,13 @@
+SMART KISTI MANAGER v20 – PROFESSIONAL EDITION
+
+নতুন ফিচার:
+• Professional Portfolio Monitor
+• Total Portfolio, Collected, Outstanding ও Collection Efficiency
+• Active/Completed Account KPI
+• Overdue Exposure ও Average Installment
+• Portfolio Ranking – সর্বোচ্চ আদায়কারী Account
+• Risk Monitor – সর্বোচ্চ Overdue Exposure
+• Portfolio CSV Export
+• Portfolio Print Report
+• Professional v20 branding
+• পূর্বের Dashboard, Customers, Kisti, DPS, Payments, Due, Schedule, Collection Center, Smart Insights, Reports, Cashbook, Calculator, Ledger, Analytics, Reminders ও Profit & Loss ফিচার বহাল।

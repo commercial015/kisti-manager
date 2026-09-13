@@ -1,0 +1,10 @@
+SMART KISTI MANAGER v23 – FINAL PROFESSIONAL
+
+নতুন ফিচার:
+1. Activity Log / Audit Trail – গুরুত্বপূর্ণ Save/Update/Change কার্যক্রমের সময়ভিত্তিক রেকর্ড।
+2. Business Snapshot – Customers, Active Kisti, Overdue, Collection, DPS, Income, Expense, Net Cash, Outstanding এক পেজে।
+3. Snapshot CSV Export এবং Print।
+4. Audit Log Search, CSV Export, Print ও Clear।
+5. Professional v23 branding এবং আগের সব v22 ফিচার অক্ষুণ্ণ।
+6. Local JSON data compatibility বজায় রাখা হয়েছে।
+7. Windows 11 NSIS Setup build workflow retained.

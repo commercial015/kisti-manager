@@ -1,0 +1,27 @@
+SMART KISTI MANAGER v12 — Windows 11 Setup Guide
+
+GitHub Actions দিয়ে Setup.exe বানানো:
+
+1) GitHub repository খুলুন।
+2) Actions → Build Windows Installer নির্বাচন করুন।
+3) Run workflow → main → Run workflow চাপুন।
+4) Build চলবে। শেষ হলে Status = Success (সবুজ) হবে।
+5) Artifacts-এর নিচে Smart-Kisti-Manager-Windows-Setup-v12 চাপুন।
+6) ZIP Download করুন।
+7) ZIP Extract করুন।
+8) Smart-Kisti-Manager-Setup-12.0.0-x64.exe চালান।
+9) Next → Install → Finish। Desktop-এ Smart Kisti Manager shortcut তৈরি হবে।
+
+যদি Windows SmartScreen দেখায়, More info → Run anyway নির্বাচন করতে হতে পারে, কারণ এটি আপনার নিজের GitHub Actions build-এর installer।
+
+নতুন v12 ফিচার:
+- Overdue days এবং automatic next due date
+- Customer Profile
+- Payment method + note
+- Receipt print
+- 6-month chart
+- Expense tracking
+- Net Cash
+- Quick Search
+- CSV export
+- Backup/Restore

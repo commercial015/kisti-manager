@@ -1,0 +1,14 @@
+Smart Kisti Manager v25 – Final Ultimate Professional
+
+NEW in v25:
+- One-click PDF Report Center using Electron native print-to-PDF
+- Save current page/report directly as PDF with Save dialog
+- PDF buttons for Reports, Executive Center, Business Snapshot, Activity Log, Target & Closing, Cashbook, Analytics, Profit & Loss, Portfolio, Forecast, Customer Ledger and Schedule
+- Automatic PDF filename with report name + date
+- Professional A4 print layout with background graphics
+- Global PDF shortcut button in the top toolbar
+
+All previous v24 features remain included.
+
+- PDF support also available on Payment History, Collection Center and Smart Reminders.
+- Global PDF button can save the currently open page as a professional A4 PDF.
