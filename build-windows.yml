@@ -1,0 +1,28 @@
+name: Build Windows Installer
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install dependencies
+        run: npm install
+      - name: Build Windows Setup
+        run: npm run build -- --publish never
+      - name: Upload Windows Setup
+        uses: actions/upload-artifact@v4
+        with:
+          name: Smart-Kisti-Manager-Windows-Setup-v25
+          path: dist/*.exe
+          if-no-files-found: error
