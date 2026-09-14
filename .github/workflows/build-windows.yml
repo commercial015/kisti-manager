@@ -9,20 +9,38 @@ on:
 jobs:
   build-windows:
     runs-on: windows-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: npm
+
       - name: Install dependencies
         run: npm install
+
       - name: Build Windows Setup
-        run: npm run build -- --publish never
+        env:
+          CI: false
+          CSC_IDENTITY_AUTO_DISCOVERY: false
+        run: npx electron-builder --win nsis --publish=never --config.publish=never
+
+      - name: Verify installer
+        shell: pwsh
+        run: |
+          Get-ChildItem -Path dist -File
+          if (-not (Get-ChildItem -Path dist -Filter *.exe -File)) {
+            Write-Error "No Windows .exe installer was created."
+            exit 1
+          }
+
       - name: Upload Windows Setup
         uses: actions/upload-artifact@v4
         with:
-          name: Smart-Kisti-Manager-Windows-Setup-v25
+          name: Smart-Kisti-Manager-Windows-Setup
           path: dist/*.exe
           if-no-files-found: error
