@@ -1,13 +1,14 @@
 {
   "name": "smart-kisti-manager",
   "version": "25.0.0",
-  "description": "Smart Kisti Manager - Final Ultimate Professional with PDF Reports Windows 11 installment, DPS, customer and business management",
+  "description": "Smart Kisti Manager - Professional Windows installment and DPS management",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-builder --win nsis --publish never",
-    "build:portable": "electron-builder --win portable --publish never"
+    "build": "electron-builder --win nsis",
+    "build:portable": "electron-builder --win portable"
   },
+  "dependencies": {},
   "devDependencies": {
     "electron": "^38.0.0",
     "electron-builder": "^26.0.0"
