@@ -26,12 +26,12 @@ jobs:
         env:
           CI: false
           CSC_IDENTITY_AUTO_DISCOVERY: false
-        run: npm run build -- --publish never
+        run: npx electron-builder --win nsis --publish never
 
       - name: Verify installer
         shell: pwsh
         run: |
-          Write-Host "Checking dist folder..."
+          Write-Host "Checking installer..."
           Get-ChildItem -Path dist -File
 
           $installer = Get-ChildItem -Path dist -Filter *.exe -File
