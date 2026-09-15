@@ -26,16 +26,22 @@ jobs:
         env:
           CI: false
           CSC_IDENTITY_AUTO_DISCOVERY: false
-        run: npx electron-builder --win nsis --publish=never --config.publish=never
+        run: npm run build -- --publish never
 
       - name: Verify installer
         shell: pwsh
         run: |
+          Write-Host "Checking dist folder..."
           Get-ChildItem -Path dist -File
-          if (-not (Get-ChildItem -Path dist -Filter *.exe -File)) {
+
+          $installer = Get-ChildItem -Path dist -Filter *.exe -File
+
+          if (-not $installer) {
             Write-Error "No Windows .exe installer was created."
             exit 1
           }
+
+          Write-Host "SUCCESS: $($installer.Name)"
 
       - name: Upload Windows Setup
         uses: actions/upload-artifact@v4
